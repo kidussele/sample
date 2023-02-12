@@ -11,14 +11,32 @@
     <div class="container">
         <div class="home-list">
             <img src="images/logo.png" alt="Logo" width="50px" height="50px"/>
-            <ul>
+            <nav>
+            <ul id="menuList">
                 <li><a href="">Home</a></li>
                 <li><a href="">Destination</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
-            </ul> 
+            </ul>
+            </nav>
+            <a href="#"><input class="join" type="submit" value="Join Us"/></a>
+            <img src="images/menu.png" alt="menu" class="menu" onclick="togglemenu()"/>
         </div>
     </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 </html>
