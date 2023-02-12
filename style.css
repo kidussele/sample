@@ -47,21 +47,57 @@ body{
 }
 
 .home-list img{
+   width: 50px;
+   height: 50px;
+}
+.home-list a .join{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
     color: white;
-    letter-spacing: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.home-list a .join::after{
+    content: '';
+    width:0;
+    background-color:#009688;
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.home-list a .join:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+.menu{
+    display: none;
 }
 
-@media only screen and (max-width: 794px){
-    .home-list ul li a{
-        font-size: 14px;
+@media only screen and (max-width: 900px){
+    *{
+        margin:0;
+        padding:0;
     }
-}
-@media only screen and (max-width: 750px){
     .home-list ul li{
         text-align: center;
         width:100%;
-        margin-top:10px;
-        height:100%;
+        top: 100px;
         background-color: #000000ad;
+        position: relative;
+    }
+    .menu{
+        display: block;
+    }
+    .home-list input{
+        display: none;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
     }
 }
