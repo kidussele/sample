@@ -147,6 +147,46 @@ body{
     height: 50px;
     border-color: #009688;
 }
+.intro{
+    width: 80%;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+}
+.text-a{
+    width: 50%;
+    padding-right: 50px;
+}
+.text-a h1{
+    font-size: 60px;
+}
+.text-a p{
+    font-size: 20px;
+    color: #2222229f;
+}
+.text-a p span{
+    color: #009688;
+}
+.images-a{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.images1 img, .images2 img{
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+}
+.images3 img{
+    width: 150%;
+    height: 100%;
+    margin-left: -70px;
+    border-radius: 10px;
+}
+
+
 
 
 @media only screen and (max-width: 950px){
