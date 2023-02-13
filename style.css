@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
@@ -59,6 +62,7 @@ body{
     text-transform: uppercase;
     border: solid 2px white;
     border-radius: 10px;
+    overflow: hidden;
 }
 .home-list a .join::after{
     content: '';
@@ -69,6 +73,7 @@ body{
     left: 0;
     bottom:-10px;
     transition:0.5s;
+    overflow: visible;
 }
 .home-list a .join:hover::after{
     width: 100%;
@@ -78,6 +83,35 @@ body{
     display: none;
 }
 
+.welcome{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top:160px;
+}
+.welcome span{
+    color: red;
+}
+.ex_btn{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.ex_btn input{
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'ubuntu', sans -serif;
+}
 @media only screen and (max-width: 900px){
     *{
         margin:0;
@@ -99,5 +133,8 @@ body{
     #menuList{
         overflow: hidden;
         transition: 0.5s;
+    }
+    .welcome{
+        font-size: 50px;
     }
 }
