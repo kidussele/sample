@@ -61,23 +61,17 @@ body{
     font-size: 16px;
     text-transform: uppercase;
     border: solid 2px white;
-    border-radius: 10px;
     overflow: hidden;
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 0;
 }
-.home-list a .join::after{
-    content: '';
-    width:0;
-    background-color:#009688;
-    position: absolute;
-    height: 40px;
-    left: 0;
-    bottom:-10px;
-    transition:0.5s;
-    overflow: visible;
-}
-.home-list a .join:hover::after{
-    width: 100%;
+.home-list a .join:hover,
+.ex_btn input:hover{
     cursor: pointer;
+    background-color: #009688;
+    border: none;
+    letter-spacing: 4px;
+    transition: 1s;
 }
 .menu{
     display: none;
@@ -112,7 +106,50 @@ body{
     letter-spacing: 2px;
     font-family: 'ubuntu', sans -serif;
 }
-@media only screen and (max-width: 900px){
+
+.checkout{
+    display: flex;
+    margin-top: -70px;
+    margin-left: 15%;
+    background-color: white;
+    padding: 25px;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    box-shadow: 0 5px 50px 5px#0000009f;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 80px;
+}
+.checkout input{
+    height: 50px;
+    width: 150px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #009688;
+}
+.checkout [type='submit']{
+    background-color: #505050;
+    width: 200px;
+    color: white;
+    border: none;
+}
+.checkout [type='submit']:hover{
+    background-color: #009688;
+    color: white;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.checkout select{
+    width: 50px;
+    height: 50px;
+    border-color: #009688;
+}
+
+
+@media only screen and (max-width: 950px){
     *{
         margin:0;
         padding:0;
@@ -136,5 +173,22 @@ body{
     }
     .welcome{
         font-size: 50px;
+    }
+    .checkout{
+        height: 350px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: -230px;
+    }
+    .checkout input{
+        width: 100%;
+    }
+    .checkout [type='submit']{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .checkout select{
+        width: 50%;
     }
 }
