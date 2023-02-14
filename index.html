@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome | top 10</title>
+    <link href="slide.css" type="text/css" rel="stylesheet"/>
     <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="slide.js"></script>
 </head>
 <body>
     <div class="container">
@@ -35,9 +37,9 @@
         <p>Check In</p>
             <input type="date"/>
         <p>Check Out</p>
-            <input type="date"/>
+            <input type="date" required/>
         <p>Room</p>
-            <select>
+            <select class="op">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -45,7 +47,7 @@
             <option>5</option>
         </select>
             <p>Childeren</p>
-        <select>
+        <select class="op">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -59,20 +61,120 @@
 
     <div class="intro">
         <div class="text-a">
-            <h1>Welcome to Top 10 hotel</h1>
-            <p>With over 40 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a perfect stay no matter where your destination.</p>
+            <h1>Welcome To<br>Top 10 Hotel</h1>
+            <p>With over 40 hotels worldwide, Top 10 Hotel Group offers a wide variety of hotels catering for a perfect stay no matter where your destination.</p>
             <p style="margin-top: 50px;">Manager: <span>Temesgen Samson</span></p>
+            <div>
+                <img src="images/signature.png" class="sign"/>
+            </div>
         </div>
         <div class="images-a">
             <div class="images1">
-                <img src="images/intro.jpg"/>
-                <img src="images/intro2.jpg"/>
+                <img src="images/intro.jpg" class="img1"/>
+                <img src="images/intro2.jpg" class="img2"/>
             </div>
             <div class="images3">
-                <img src="images/intro3.jpg"/>
+                <img src="images/intro3.jpg" class="img3"/>
             </div>
         </div>
     </div>
+
+    <div class="sup">
+        <div>
+            <img src="images/icon-1.png">
+            <p>Transportion</p>
+        </div>
+        <div>
+            <img src="images/icon-2.png">
+            <p>Reiseservice</p>
+        </div>
+        <div>
+            <img src="images/icon-3.png">
+            <p>Spa Relaxtion</p>
+        </div>
+        <div>
+            <img src="images/icon-4.png" style="margin-top: -5px;">
+            <p>Restaurant</p>
+        </div>
+        <div>
+            <img src="images/icon-5.png" style="margin-top: -5px;">
+            <p>Bar & Drink</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="slide-1">
+            <img src="images/slide1.jpg"/>
+        </div>
+        <div class="slide-2">
+            <h1>Premium King Room</h1>
+            <p class="price"><span>400$   </span>/Day</p>
+            <p>Size : 30ft</p>
+            <p>Capacity : 5 Person</p>
+            <p>Bed : King Bed</p>
+            <p>Service : WiFi, Television, Bathroom</p>
+            <input type="submit" value="View Details">
+        </div>
+    </div>
+
+    <div class="slides">
+        <div class="slide-2">
+            <h1>Best King Room</h1>
+            <p class="price"><span>200$   </span>/Day</p>
+            <p>Size : 25ft</p>
+            <p>Capacity : 4 Person</p>
+            <p>Bed : King Bed</p>
+            <p>Service : WiFi, Television, Bathroom</p>
+            <input type="submit" value="View Details">
+        </div>
+        <div class="slide-1">
+            <img src="images/slide2.jpg"/>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <p>TESTIMONIALS</p>
+        <h1>Our Guests Love Us</h1>
+    </div>
+    <div class="client">
+        <div>
+            <img src="images/person-1.jpg">
+            <p><span>"</span>We had agreat time. The hosts were very warm & friendly.<span>"</span></p>
+            <span class="cl">Tewodros Kassahun</span>
+        </div>
+        <div>
+            <img src="images/person-2.jpg">
+            <p><span>"</span>Very lovely stay. fantastic hosts and a wonderful all round experience. Thank you<span>"</span></p>
+            <span class="cl">Meron Getnet</span>
+        </div>
+        <div>
+            <img src="images/person-3.jpg">
+            <p><span>"</span>I must say that it's a perfect place to live in , where you feel just like your home.<span>"</span></p>
+            <span class="cl">Haile G/Selassie</span>
+        </div>
+    </div>
+
+    <div class="bar">
+        <div class="bar-text1">
+            <img src="images/bar1.jpg"/>
+            <h1>Swimming Pool</h1>
+            <span>Swimming Pool</span>
+            <p>Always secure and clear swimming pool</p>
+        </div>
+        <div class="bar-text2">
+            <img src="images/bar2.jpg"/>
+            <h1>Awesome Bed</h1>
+            <span>Awesome Bed</span>
+            <p>It's confortable and clear bed.</p>
+        </div>
+        <div class="bar-text3">
+            <img src="images/bar3.jpg"/>
+            <h1>Delicious Food</h1>
+            <span>Delicious Food</span>
+            <p>Amazing ceremony and delicious foods.</p>
+        </div>
+    </div>
+
     <script>
         var menuList = document.getElementById("menuList");
         menuList.style.maxHeight = "0px";

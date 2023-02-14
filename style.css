@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -147,6 +147,10 @@ body{
     height: 50px;
     border-color: #009688;
 }
+.op option{
+    font-size: 18px;
+    font-family: 'ubuntu', sans-serif;
+}
 .intro{
     width: 80%;
     height: 350px;
@@ -185,10 +189,337 @@ body{
     margin-left: -70px;
     border-radius: 10px;
 }
+.img1:hover, .img2:hover, .img3:hover{
+    scale: 105%;
+    transition: 0.5s;
+}
+.sign{
+    scale: 50%;
+    margin-top: -80px;
+    margin-left: -160px;
+}
 
 
+.sup{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sup div{
+    margin: 30px;
+    box-shadow: 0 20px 60px 5px #505050;
+    width: 220px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #505050;
+    border-radius: 30px;
+}
+
+.slide{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.slides{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.slide-1{
+    width: 50%;
+    height: 700px;
+}
+.slide-1 img{
+    width: 100%;
+    height: 100%;
+}
+.slide-2{
+    width: 50%;
+    height: 700px;
+    background-color: #041e36;
+    color: white;
+
+}
+.slide-2 h1{
+    padding-top: 130px;
+    font-size: 50px;
+    padding-left: 80px;
+}
+.slide-2 span{
+    color: #009688;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.slide-2 p{
+    padding-left: 80px;
+    font-size: 20px;
+}
+.slide-2 input{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #009688;
+    color: white;
+    border: none;
+}
+
+.slide-2 input:hover{
+    background-color: white;
+    color: #009688;
+    transition: 1s;
+    letter-spacing: 2px;
+}
 
 
+.testimonials{
+    text-align: center;
+    width: 100%;
+}
+.testimonials p{
+    padding-top: 50px;
+    font-size: 20px;
+    color: #009688;
+}
+.testimonials h1{
+    font-size: 40px;
+    margin-top: -10px;;
+}
+.client{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client div{
+    width: 20%;
+    margin: 0px 50px 50px 50px;
+}
+.client div img{
+    width: 100%;
+    border-radius: 20px;
+    border: #7777778c 5px solid;
+    transition: 1s;   
+}
+.client div img:hover{
+    border:#009688 5px solid;
+    transition: 1s;
+    cursor: pointer;
+}
+.client div p{
+    font-size: 20px;
+    color: #505050;
+}
+.cl{
+    color: #009688;
+    font-size: 20px;
+}
+.client div p span{
+    color: #009688;
+    font-size: 25px;
+    font-family: 'IM Fell English SC', serif;
+}
+
+
+.bar{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.bar-text1, .bar-text2, .bar-text3{
+    width: 33.333334%;
+}
+.bar-text1 img{
+    width: 100%;
+    height: 100%;
+}
+.bar-text2 img{
+    width: 100%;
+    height: 100%;
+}
+.bar-text3 img{
+    width: 100%;
+    height: 100%;
+}
+.par{
+    width: 100%;
+    display: flex;
+}
+.bar-text1 p{
+    width: 33.333334%;
+    visibility: hidden;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+.bar-text1:hover span{
+    margin-left: -33.33334%;
+    margin-top: 0;
+    visibility: hidden;
+}
+.bar-text2:hover span{
+    margin-left: -33.33334%;
+    margin-top: 0;
+    visibility: hidden;
+}.bar-text3:hover span{
+    margin-left: -33.33334%;
+    margin-top: 0;
+    visibility: hidden;
+}
+.bar-text1:hover p{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -153px;
+    transition: 1s;
+    background-color: #041e36;
+    height: 100px;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+.bar-text1 span{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -250px;
+    background-color: rgba(51, 51, 51, 0.607);
+    height: 80px;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}
+.bar-text2 span{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -250px;
+    background-color: rgba(51, 51, 51, 0.607);
+    height: 80px;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}.bar-text3 span{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -250px;
+    background-color: rgba(51, 51, 51, 0.607);
+    height: 80px;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}
+.bar-text1 h1{
+    width: 33.333334%;
+    visibility: hidden;
+}
+.bar-text1:hover h1{
+    text-align: center;
+    margin-top: -300px;
+    height: 200px;
+    transition: 1s;
+    background-color: #009688;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.bar-text2 p{
+    width: 33.333334%;
+    visibility: hidden;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+.bar-text2:hover p{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -153px;
+    transition: 1s;
+    background-color: #041e36;
+    height: 100px;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+.bar-text2 h1{
+    width: 33.333334%;
+    visibility: hidden;
+}
+.bar-text2:hover h1{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -300px;
+    height: 200px;
+    transition: 1s;
+    background-color: #009688;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
+
+.bar-text3 p{
+    width: 33.333334%;
+    visibility: hidden;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+.bar-text3:hover p{
+    text-align: center;
+    margin-top: -153px;
+    padding-top: 50px;
+    transition: 1s;
+    background-color: #041e36;
+    height: 100px;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+.bar-text3 h1{
+    width: 33.333334%;
+    visibility: hidden;
+}
+.bar-text3:hover h1{
+    text-align: center;
+    margin-top: -300px;
+    padding-top: 50px;
+    height: 200px;
+    transition: 1s;
+    background-color: #009688;
+    width: 33.333334%;
+    visibility: visible;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
 @media only screen and (max-width: 950px){
     *{
         margin:0;
