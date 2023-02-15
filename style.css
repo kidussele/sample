@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -293,6 +295,8 @@ body{
     padding-top: 50px;
     font-size: 20px;
     color: #009688;
+    letter-spacing: 5px;
+    background-color: white;
 }
 .testimonials h1{
     font-size: 40px;
@@ -519,6 +523,208 @@ body{
     position: absolute;
     color: white;
     font-size: 40px;
+}
+
+.event{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.event div{
+    width: 25%;
+    margin:20px;
+    font-size: 20px;
+    transition: 1s;
+}
+.event div img{
+    width: 100%;
+}
+.event div .sp{
+    color:#009688
+}
+.event .ev1:hover, .ev2:hover, .ev3:hover{
+    scale:110%;
+    background-color: rgba(80, 80, 80, 0.493);
+    transition: 1s;
+    color: white;
+}
+.event div p{
+    padding:10px
+}
+.event div span{
+    padding:10px
+}
+
+
+.now{
+    width: 80%;
+    display:flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    background-image: url('images/intro3.jpg');
+}
+.now div{
+    width:50%;
+    padding: 30px;
+    color: white;
+}
+.now div p{
+    font-size: 18px;
+}
+.now div input{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: #009688;
+    border: none;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 60%;
+}
+.now div input:hover{
+    background-color: white;
+    color: #009688;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+
+.footer{
+    width:100%;
+    margin-top: 80px;
+    background-color: #132536;
+    display: flex;
+    color: white;
+    padding-bottom: 50px;
+}
+.footer div{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.footer .if1{
+    width: 20%;
+    padding-left: 10%;
+}
+.footer .if2{
+    width: 20%;
+}
+.footer .if3{
+    width: 15%;
+}
+.footer .if4{
+    width: 25%;
+}
+.footer .if4 input{
+    background-color: #585858af;
+    border-radius: 100px;
+    width: 300px;
+    height: 45px;
+    color: white;
+    padding-left: 20px;
+    border: none;
+    margin-top: 10px;
+}
+.footer .if4 button{
+    height: 42px;
+    width: 42px;
+    margin-top: 12px;
+    border-radius: 100%;
+    margin-left: -46px;
+    margin-bottom: -50px;
+    position: absolute;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    padding-left: 12px;
+    border: none;
+    background-color: #009688;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.footer .if4 button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+.footer .if4 p{
+    font-size: 16px;
+    color: #8b8b8b;
+}
+.footer .if3 ul li{
+    list-style-type: square; 
+    margin-top: 10px;
+    color: #8b8b8b;
+    font-size: 16px;
+}
+.footer .if3 ul li a{
+    text-decoration: none;
+    color: #8b8b8b;
+}
+.footer .if3 ul li a:hover{
+    color: white;
+    transition: 1s;
+}
+.footer .if2 p{
+    font-size: 16px;
+    color: white;
+}
+.footer .if2 .bl1:hover{
+    color: #009688;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer .if2 .dt1{
+    font-size: 14px;
+    color: #8b8b8b;
+}
+.footer .if1 p{
+    font-size: 16px;
+    color: #8b8b8b;
+}
+.footer .if1 .em, .loc{
+    margin-top: -15px;
+}
+.footer .if1 .ph{
+    color: #009688;
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.footer h1{
+    font-size: 24px;
+}
+.footer div img{
+    width: 55px;
+    height: 55px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.footer-2{
+    background-color: #132536;
+    margin-top: -50px;
+    color: white;
+    letter-spacing: 1px;
+    width: 80%;
+    display: flex;
+    border-top: 1px #505050 solid;
+    margin-left: 10%;
+}
+.copy{
+    width: 50%;
+    font-size: 14px;
+}
+.social-media{
+    width: 50%;
+}
+.social-media img{
+    float: right;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.social-media img:hover{
+    cursor: pointer;
 }
 @media only screen and (max-width: 950px){
     *{
