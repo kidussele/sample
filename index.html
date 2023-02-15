@@ -14,8 +14,8 @@
             <img src="images/logo.png" alt="Logo" width="50px" height="50px"/>
             <nav>
             <ul id="menuList">
-                <li><a href="">Home</a></li>
-                <li><a href="">Room</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="room.html">Room</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
@@ -28,11 +28,11 @@
             <h1 class="welcome">Welcome to <span>Top 10</span> hotel.</h1>
         </div>
         <div class="ex_btn">
-            <input type="submit" value="Explore"/>
-            <input type="submit" value="Room"/>
+            <input type="submit" value="Explore" onClick="document.getElementById('ch').scrollIntoView();"/>
+            <input type="submit" value="Room" onClick="document.getElementById('ro').scrollIntoView();"/>
         </div>
     </div>
-    <div class="checkout">
+    <div class="checkout" id="ch">
         <p>Check In</p>
             <input type="date"/>
         <p>Check Out</p>
@@ -101,7 +101,7 @@
         </div>
     </div>
 
-    <div class="slide">
+    <div class="slide" id="ro">
         <div class="slide-1">
             <img src="images/slide1.jpg"/>
         </div>
@@ -173,7 +173,7 @@
             <p>Amazing ceremony and delicious foods.</p>
         </div>
     </div>
-    <div class="testimonials">
+    <div class="testimonialss">
         <p>OUR BLOG</p>
         <h1>Latest News & Event</h1>
     </div>
