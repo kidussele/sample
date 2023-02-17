@@ -4,8 +4,8 @@
     align-items: center;
     display: flex;
     color: white;
-    height: 400px;
-    margin-top: 100px;
+    height: 500px;
+    margin-top: 0px;
 }
 h1{
     text-align: center;
@@ -17,7 +17,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;   
-    height: 400px;
+    height: 500px;
     background-color: #5050506b;
 }
 .login{
@@ -43,18 +43,83 @@ ul li{
 }
 input{
     width: 300px;
-    height: 30px;
+    height: 40px;
     border: none;
+    background-color: #5050509d;
+    padding-left: 10px;
 }
 
-.toronto{
+.kid{
     display: flex;
     justify-content: center;
-    align-items: center; 
-    font-size: 18px;
+    align-items: center;
 }
-.toronto:hover{
+.fpo{
+    letter-spacing: 1px;
+    color: #009688;
+    transition: 1s;
+    text-align: center;
+}
+.fpo:hover{
     background-color: #009688;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s;
 }
+.joinn{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid 2px white;
+    overflow: hidden;
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 0;
+}
+.joinn:hover{
+    cursor: pointer;
+    background-color: #009688;
+    border: none;
+    letter-spacing: 4px;
+    transition: 1s;
+}
+
+
+
+
+
+
+#message {
+    display:none;
+    color: #000;
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+  }
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
