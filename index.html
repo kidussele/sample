@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | top 10</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="home-list">
+            <img src="images/logo.png" alt="Logo" width="50px" height="50px"/>
+            <nav>
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="room.html">Room</a></li>
+                <li><a href="blog.html">News</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+            <a href="logsign.html"><input class="join" type="submit" value="Join Us"/></a>
+            <img src="images/menu.png" alt="menu" class="menu" onclick="togglemenu()"/>
+        </div>
+        <div>
+            <h1 class="welcome">Welcome to <span>Top 10</span> hotel.</h1>
+        </div>
+        <div class="ex_btn">
+            <input type="submit" value="Explore" onClick="document.getElementById('ch').scrollIntoView();"/>
+            <input type="submit" value="Room" onClick="document.getElementById('ro').scrollIntoView();"/>
+        </div>
+    </div>
+    <div class="checkout" id="ch">
+        <p>Check In</p>
+            <input type="date"/>
+        <p>Check Out</p>
+            <input type="date" required/>
+        <p>Room</p>
+            <select class="op">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+            <p>Childeren</p>
+        <select class="op">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <div>
+        <input type="submit" value="Check Availability"/>
+        </div>
+    </div>
+
+    <div class="intro">
+        <div class="text-a">
+            <h1>Welcome To<br>Top 10 Hotel</h1>
+            <p>With over 40 hotels worldwide, Top 10 Hotel Group offers a wide variety of hotels catering for a perfect stay no matter where your destination.</p>
+            <p style="margin-top: 50px;">Manager: <span>Temesgen Samson</span></p>
+            <div>
+                <img src="images/signature.png" class="sign"/>
+            </div>
+        </div>
+        <div class="images-a">
+            <div class="images1">
+                <img src="images/intro.jpg" class="img1"/>
+                <img src="images/intro2.jpg" class="img2"/>
+            </div>
+            <div class="images3">
+                <img src="images/intro3.jpg" class="img3"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="sup">
+        <div>
+            <img src="images/icon-1.png">
+            <p>Transportion</p>
+        </div>
+        <div>
+            <img src="images/icon-2.png">
+            <p>Reiseservice</p>
+        </div>
+        <div>
+            <img src="images/icon-3.png">
+            <p>Spa Relaxtion</p>
+        </div>
+        <div>
+            <img src="images/icon-4.png" style="margin-top: -5px;">
+            <p>Restaurant</p>
+        </div>
+        <div>
+            <img src="images/icon-5.png" style="margin-top: -5px;">
+            <p>Bar & Drink</p>
+        </div>
+    </div>
+
+    <div class="slide" id="ro">
+        <div class="slide-1">
+            <img src="images/slide1.jpg"/>
+        </div>
+        <div class="slide-2">
+            <h1>Premium King Room</h1>
+            <p class="price"><span>400$   </span>/Day</p>
+            <p>Size : 30ft</p>
+            <p>Capacity : 5 Person</p>
+            <p>Bed : King Bed</p>
+            <p>Service : WiFi, Television, Bathroom</p>
+            <input type="submit" value="View Details">
+        </div>
+    </div>
+
+    <div class="slides">
+        <div class="slide-2">
+            <h1>Best King Room</h1>
+            <p class="price"><span>200$   </span>/Day</p>
+            <p>Size : 25ft</p>
+            <p>Capacity : 4 Person</p>
+            <p>Bed : King Bed</p>
+            <p>Service : WiFi, Television, Bathroom</p>
+            <input type="submit" value="View Details">
+        </div>
+        <div class="slide-1">
+            <img src="images/slide2.jpg"/>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <p>TESTIMONIALS</p>
+        <h1>Our Guests Love Us</h1>
+    </div>
+    <div class="client">
+        <div>
+            <img src="images/person-1.jpg">
+            <p><span>"</span>We had agreat time. The hosts were very warm & friendly.<span>"</span></p>
+            <span class="cl">Tewodros Kassahun</span>
+        </div>
+        <div>
+            <img src="images/person-2.jpg">
+            <p><span>"</span>Very lovely stay. fantastic hosts and a wonderful all round experience. Thank you<span>"</span></p>
+            <span class="cl">Meron Getnet</span>
+        </div>
+        <div>
+            <img src="images/person-3.jpg">
+            <p><span>"</span>I must say that it's a perfect place to live in , where you feel just like your home.<span>"</span></p>
+            <span class="cl">Haile G/Selassie</span>
+        </div>
+    </div>
+
+    <div class="bar">
+        <div class="bar-text1">
+            <img src="images/bar1.jpg"/>
+            <h1>Swimming Pool</h1>
+            <span>Swimming Pool</span>
+            <p>Always secure and clear swimming pool</p>
+        </div>
+        <div class="bar-text2">
+            <img src="images/bar2.jpg"/>
+            <h1>Awesome Bed</h1>
+            <span>Awesome Bed</span>
+            <p>It's confortable and clear bed.</p>
+        </div>
+        <div class="bar-text3">
+            <img src="images/bar3.jpg"/>
+            <h1>Delicious Food</h1>
+            <span>Delicious Food</span>
+            <p>Amazing ceremony and delicious foods.</p>
+        </div>
+    </div>
+    <div class="testimonialss">
+        <p>OUR BLOG</p>
+        <h1>Latest News & Event</h1>
+    </div>
+    <div class="event">
+        <div class="ev1">
+            <img src="images/news.png"><br/></br>
+            <span>Jan 20,2023</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sp">Event</span>
+            <p>Opening new branchs in Ethiopia, you can enjoy going to all branchs the trend towards digital and contactless services has gained new momentum. </p>
+        </div>
+        <div class="ev2">
+            <img src="images/news-2.png"><br/></br>
+            <span>DEC 12,2022</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sp">Event</span>
+            <p>50% Discount, the trend towards digital and contactless services has gained new momentum. </p>
+        </div>
+        <div class="ev3">
+            <img src="images/news-3.png"><br/></br>
+            <span>SEP 07,2022</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sp">Event</span>
+            <p>All Ethiopian traditional foods are started in all Top 10 hotels branch, the trend towards digital and contactless services has gained new momentum. </p>
+        </div>
+    </div>
+    <div class="now">
+        <div>
+            <h1>Contact us now!</h1>
+            <p>Contact (+251) 145-6789 to book directly or for advice</p>
+        </div>
+        <div>
+            <input type="submit" value="Contact Now">
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="if1">
+            <img src="images/logo.png"/>
+            <p class="ph">(+251) 145-6789</p>
+            <p class="em">info.topten@gmail.com</p>
+            <p class="loc">Gurd Shola/CMC<br>Addis Ababa, Ethiopia</p>
+        </div>
+        <div class="if2">
+            <h1>Our Blog</h1>
+            <p class="bl1">50% off discount</p>
+            <p class="dt1">MAR 08,2023</p>
+            <p class="bl1">Open new branch</p>
+            <p class="dt1">MAR 08,2023</p>
+        </div>
+        <div class="if3">
+            <h1>Links</h1>
+            <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="room.html">Our Room</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div  class="if4">
+            <h1>Subscribe Newsletter</h1>
+            <p class="subsc">Subscribe our newsletter gor get notification about new updates.</p>
+            <input type="email" placeholder="Enter your email ..."/><button>></button>
+        </div>
+    </div>
+    <div class="footer-2">
+        <div class="copy">
+            <p>Copyright &copy; 2023 All rights reserved | This website is made with CS Students.</p>
+        </div>
+        <div class="social-media">
+            <img src="images/linkedin.png"/>
+            <img src="images/twitter.png"/>
+            <img src="images/instagram.png"/>
+            <img src="images/facebook.png"/>
+        </div>
+    </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
