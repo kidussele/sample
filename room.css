@@ -1,0 +1,67 @@
+div .our{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top:160px;
+}
+div .welcome{
+    margin-top: -50px;
+    font-size: 20px;
+}
+div .welcome a{
+    text-decoration: none;
+    color: white;
+}
+div .welcome a:hover{
+    color: #009688;
+    transition: 1s;
+}
+.roooms{
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+}
+.rooms-type{ 
+    width: 70%;
+}
+.roooms .rooms-type .room-type-1 div{
+    width: 50%;
+    margin: 20px;
+}
+.roooms .rooms-type .room-type-1:hover{
+    scale: 110%;
+    transition: 1s;
+    background-color: #494949;
+    color: white;
+    cursor: pointer;
+}
+.roooms .rooms-type .room-type-1:hover .r2 h1{
+    color: white;
+}
+.roooms .room-type-1{
+    display: flex;    
+    transition: 1s;
+
+}
+.roooms .rooms-type .room-type-1 .r1 img{
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+
+}
+.roooms .rooms-type #roo{
+    margin-top: 100px;
+}
+.roooms .rooms-type .room-type-1 .r2 p{
+    font-size: 20px;
+}
+.roooms .rooms-type .room-type-1 .r2 h1{
+    color: #494949;
+    font-size: 40px;
+}
+.roooms .rooms-type .room-type-1 .r2 span{
+    color: #009688;
+}
+.roooms .rooms-type .room-type-1 .r2{
+    border-bottom: #009688 solid 1px;
+    border-top: #009688 solid 1px;
+}
