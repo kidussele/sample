@@ -1,0 +1,86 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.map{
+    width: 80%;
+    display: block;
+    margin-top: -100px;
+    box-shadow: 0 0 20px 0.5px #919191;
+}
+.inform{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+}
+.inf1{
+    text-align: center;
+    margin: 50px;
+    color: #505050;
+}
+.inf1 p{
+    font-size: 18px;
+}
+
+#map {
+    padding-bottom: 30px;
+    height: 500px; 
+    width: 95%; 
+  }
+.mappp{
+    width: 100%;
+    margin-top: -80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 600px;
+}
+
+.lv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.inp{
+    width: 80%;
+
+}
+.inp input{
+    width: 48%;
+    margin-top: 50px;
+    height: 40px; 
+    padding-left: 10px;
+    font-size: 14px;
+    border: #b6b6b6 1px solid;
+}
+textarea{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    border: #b6b6b6 1px solid;
+
+}
+.inp21{
+    margin-left: 13px;
+}
+.lv .sub12{
+    background-color: #009688;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+}
+.lv .sub12:hover{
+    background-color: white;
+    color: #009688;
+    box-shadow: 0 0 20px 2px #b6b6b6;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
